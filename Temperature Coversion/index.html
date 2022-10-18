@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <label>enter a temperature</label> <br> 
+    <input type="text" id="temperature"> <br> <br>
+
+    <label>select unit of the input temperature:</label> <br> 
+
+    <input type="radio" id="C" name="unit">
+    <label for="C">Celsius</label> <br>
+
+    <input type="radio" id="F" name="unit"> 
+    <label for="F">Farenheit</label> <br>
+
+    <input type="radio" id="K" name="unit"> 
+    <label for="K">Kelvin</label> <br> <br>
+
+    <button id="submit">submit</button> <br> <br>
+
+    <h4>temperature in different scales:</h4>
+    <label tyep="text" id="ans"></label>
+
+    <script src="convertTemp.js"></script>
+</body>
+</html>
