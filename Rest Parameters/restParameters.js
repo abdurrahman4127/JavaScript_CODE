@@ -1,7 +1,7 @@
 /*
 rest parameters >
     represents an indefinite number of parameters
-    packs agruments into an array
+    packs arguments into an array
 */
 
 // for 2 variables
